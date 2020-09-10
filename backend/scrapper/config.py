@@ -4,7 +4,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 DIRECTORY = 'reports'
 CATEGORIES = ['PS4', 'Iphone', 'Printer', 'Lego', 'Headphones', 'Smartwatch', 'TV', 'Laptop', 'Camera']
 CURRENCY = '€'
-BASE_URL = "http://www.amazon.de/"
+BASE_URL = "https://www.amazon.com/"
 API_BASE_URL = 'http://127.0.0.1:8000/'
 
 def get_chrome_web_driver(options):

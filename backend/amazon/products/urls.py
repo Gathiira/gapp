@@ -23,5 +23,5 @@ urlpatterns = [
     path('add-products/', ReportView.as_view(), name = 'home_page'),
     path('products-filter/', ProductListApiView.as_view()),
     path('categories/', category_list, name = 'category-detail'),
-    path('categories/<int:pk>', category_detail, name='category-detail'),
+    path('category/<int:pk>', category_detail, name='category-detail'),
 ]
